@@ -8,7 +8,7 @@
 * add jsonTools/jsonTools.m to your build target
 * \#import "jsonTools/jsonTools.h"
 * ????
-* PROFIT
+* PROFIT!!!
 
 ## Lisence ##
 
