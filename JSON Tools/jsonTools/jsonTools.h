@@ -16,7 +16,7 @@
 @end
 @interface NSArray (jsonTools)
 -(NSString*) jsonString;
-- (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;//prettyPrint means more human-readable
+-(NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;//prettyPrint means more human-readable
 +(NSArray*) arrayWithJSONString:(NSString*) jsonString;
 +(NSString*) jsonToolsVersion;//returns string with current jsonTools version for this class
 @end
