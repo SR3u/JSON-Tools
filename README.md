@@ -5,7 +5,7 @@ Just some NS* classes extentions
 ## Currently supported classes ##
 
 * NSArray
-* NSDicitonary
+* NSDictionary
 
 ## Set up ##
 
