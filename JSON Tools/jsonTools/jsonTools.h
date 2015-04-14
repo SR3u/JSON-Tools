@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (JSONString)
+@interface NSDictionary (jsonTools)
 +(NSString*) jsonToolsVersion;
 -(NSString*) jsonString;
 -(NSString*) jsonStringWithPrettyPrint:(BOOL) prettyPrint;
 +(NSDictionary*) dictionaryWithJSONString:(NSString*) jsonString;
 @end
-@interface NSArray (JSONString)
+@interface NSArray (jsonTools)
 +(NSString*) jsonToolsVersion;
 -(NSString*) jsonString;
 - (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;
