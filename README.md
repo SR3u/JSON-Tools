@@ -1,6 +1,6 @@
 # JSON Tools #
 
-Just some NS* classes extentions.
+Just some NS* classes extensions.
 
 ## [Currently supported classes](https://bitbucket.org/SR3u/json-tools/wiki/Classes) ##
 
