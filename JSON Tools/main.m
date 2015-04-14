@@ -9,16 +9,26 @@
 #import <Foundation/Foundation.h>
 #import "jsonTools/jsonTools.h"
 
-void testNSDictionary(void)
+void testNSDictionary(NSString* testDictionaryJsonString)
 {
-    NSLog(@"[NSDictionary jsonToolsVersion]:'%@'",[NSDictionary jsonToolsVersion]);
-    NSString* testDictionaryJsonString=@"{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}";
     NSLog(@"testDictionaryJsonString: '%@'",testDictionaryJsonString);
     NSDictionary *d=[NSDictionary dictionaryWithJSONString:testDictionaryJsonString];
     NSLog(@"[NSDictionary dictionaryWithJSONString:testDictionaryJsonString]:\n%@",d);
     NSLog(@"[dictionary jsonStringWithPrettyPrint:YES]:\n%@",[d jsonStringWithPrettyPrint:YES]);
     NSLog(@"[dictionary jsonStringWithPrettyPrint:NO]:\n%@",[d jsonStringWithPrettyPrint:NO]);
     NSLog(@"[dictionary jsonString]:\n%@",[d jsonString]);
+
+}
+void testNSDictionary_all(void)
+{
+    NSLog(@"[NSDictionary jsonToolsVersion]:'%@'",[NSDictionary jsonToolsVersion]);
+    testNSDictionary(@"{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}");
+    testNSDictionary(@"{\"dicitonary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}}");
+    testNSDictionary(@"{\"dictionary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5},\n"
+                     @"\"dictionary2\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}}");
+    testNSDictionary(@"{\"dictionary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5},"
+                     @"\"dictionary2\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5},"
+                     @"\"dictionary2\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5,\"array\":[0,1]}}");    
 }
 void testNSArray(NSString* testArrayJsonString)
 {
@@ -43,7 +53,7 @@ void testNSArray_all(void)
 int main(int argc, const char * argv[])
 {@autoreleasepool{
     // insert code here...
-    testNSDictionary();
+    testNSDictionary_all();
     testNSArray_all();
     return 0;
 }}
