@@ -69,3 +69,38 @@
     return res;
 }
 @end
+
+@implementation NSMutableDictionary (jsonTools)
++(NSString*) jsonToolsVersion{return @"0.0.1";};
+
++(NSMutableDictionary*) dictionaryWithJSONString:(NSString*) jsonString
+{
+    NSError* error;
+    NSMutableDictionary* res=[NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding]
+                                        options:NSJSONReadingMutableContainers|NSJSONReadingMutableLeaves
+                                                               error:&error];
+    if (error!=nil)
+    {
+        NSLog(@"dictionaryWithJSONString: error: %@", error.localizedDescription);
+        return nil;
+    }
+    return res;
+}
+@end
+
+@implementation NSMutableArray (jsonTools)
++(NSString*) jsonToolsVersion{return @"0.0.1";};
++(NSMutableArray*) arrayWithJSONString:(NSString*) jsonString
+{
+    NSError* error;
+    NSMutableArray* res=[NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding]
+                                                 options:NSJSONReadingMutableContainers|NSJSONReadingMutableLeaves
+                                                   error:&error];
+    if (error!=nil)
+    {
+        NSLog(@"arrayWithJSONString: error: %@", error.localizedDescription);
+        return nil;
+    }
+    return res;
+}
+@end
