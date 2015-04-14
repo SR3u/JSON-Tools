@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E4E60FA1ADD3B3F005E59C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E60F91ADD3B3F005E59C1 /* main.m */; };
 		4E4E61081ADD3C01005E59C1 /* jsonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E61071ADD3BF2005E59C1 /* jsonTools.m */; };
+		4E4E610E1ADD482D005E59C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E610D1ADD482D005E59C1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		4E4E60F91ADD3B3F005E59C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E4E61061ADD3BF2005E59C1 /* jsonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jsonTools.h; sourceTree = "<group>"; };
 		4E4E61071ADD3BF2005E59C1 /* jsonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsonTools.m; sourceTree = "<group>"; };
+		4E4E610D1ADD482D005E59C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		4E4E60ED1ADD3B3F005E59C1 = {
 			isa = PBXGroup;
 			children = (
+				4E4E610D1ADD482D005E59C1 /* README.md */,
 				4E4E60F81ADD3B3F005E59C1 /* JSON Tools */,
 				4E4E60F71ADD3B3F005E59C1 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4E610E1ADD482D005E59C1 /* README.md in Sources */,
 				4E4E61081ADD3C01005E59C1 /* jsonTools.m in Sources */,
 				4E4E60FA1ADD3B3F005E59C1 /* main.m in Sources */,
 			);
