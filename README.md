@@ -1,5 +1,11 @@
 # JSON Tools #
 
+Just some NS* classes extentions
+
+## Currently supported classes ##
+
+* NSArray
+* NSDicitonary
 
 ## Set up ##
 
