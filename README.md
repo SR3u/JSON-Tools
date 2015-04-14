@@ -7,7 +7,7 @@ Just some NS* classes extensions.
 * [NSArray](https://bitbucket.org/SR3u/json-tools/wiki/NSArray(jsonTools)%20methods)
 * [NSDictionary](https://bitbucket.org/SR3u/json-tools/wiki/NSDictionary(jsonTools)%20methods)
 * [NSMutableArray](https://bitbucket.org/SR3u/json-tools/wiki/NSMutableArray(jsonTools)%20methods)
-* [NSDictionary](https://bitbucket.org/SR3u/json-tools/wiki/NSMutableDictionary(jsonTools)%20methods)
+* [NSMutableDictionary](https://bitbucket.org/SR3u/json-tools/wiki/NSMutableDictionary(jsonTools)%20methods)
 
 
 ## Set up ##
