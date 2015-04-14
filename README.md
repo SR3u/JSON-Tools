@@ -1,6 +1,6 @@
 # JSON Tools #
 
-Just some NS* classes extentions
+Just some NS* classes extentions.
 
 ## Currently supported classes ##
 
