@@ -2,7 +2,7 @@
 
 Just some NS* classes extentions.
 
-## Currently supported classes ##
+## [Currently supported classes](https://bitbucket.org/SR3u/json-tools/wiki/Classes) ##
 
 * [NSArray](https://bitbucket.org/SR3u/json-tools/wiki/NSArray(jsonTools)%20methods)
 * [NSDictionary](https://bitbucket.org/SR3u/json-tools/wiki/NSDictionary(jsonTools)%20methods)
