@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E4E60FA1ADD3B3F005E59C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E60F91ADD3B3F005E59C1 /* main.m */; };
+		4E4E61081ADD3C01005E59C1 /* jsonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E61071ADD3BF2005E59C1 /* jsonTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4E4E60F61ADD3B3F005E59C1 /* JSON Tools */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JSON Tools"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4E60F91ADD3B3F005E59C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E4E61061ADD3BF2005E59C1 /* jsonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jsonTools.h; sourceTree = "<group>"; };
+		4E4E61071ADD3BF2005E59C1 /* jsonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jsonTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		4E4E60F81ADD3B3F005E59C1 /* JSON Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4E4E61051ADD3BF2005E59C1 /* jsonTools */,
 				4E4E60F91ADD3B3F005E59C1 /* main.m */,
 			);
 			path = "JSON Tools";
+			sourceTree = "<group>";
+		};
+		4E4E61051ADD3BF2005E59C1 /* jsonTools */ = {
+			isa = PBXGroup;
+			children = (
+				4E4E61061ADD3BF2005E59C1 /* jsonTools.h */,
+				4E4E61071ADD3BF2005E59C1 /* jsonTools.m */,
+			);
+			path = jsonTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4E61081ADD3C01005E59C1 /* jsonTools.m in Sources */,
 				4E4E60FA1ADD3B3F005E59C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
