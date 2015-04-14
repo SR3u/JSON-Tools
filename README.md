@@ -4,8 +4,8 @@ Just some NS* classes extentions.
 
 ## Currently supported classes ##
 
-* NSArray
-* NSDictionary
+* [NSArray](https://bitbucket.org/SR3u/json-tools/wiki/NSArray(jsonTools)%20methods)
+* [NSDictionary](https://bitbucket.org/SR3u/json-tools/wiki/NSDictionary(jsonTools)%20methods)
 
 ## Set up ##
 
