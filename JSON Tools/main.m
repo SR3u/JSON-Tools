@@ -11,6 +11,7 @@
 
 void testNSDictionary(void)
 {
+    NSLog(@"[NSDictionary jsonToolsVersion]:'%@'",[NSDictionary jsonToolsVersion]);
     NSString* testDictionaryJsonString=@"{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}";
     NSLog(@"testDictionaryJsonString: '%@'",testDictionaryJsonString);
     NSDictionary *d=[NSDictionary dictionaryWithJSONString:testDictionaryJsonString];
@@ -30,6 +31,7 @@ void testNSArray(NSString* testArrayJsonString)
 }
 void testNSArray_all(void)
 {
+    NSLog(@"[NSArray jsonToolsVersion]:'%@'",[NSArray jsonToolsVersion]);
     testNSArray(@"[0,1,2,3]");
     testNSArray(@"[0.1,1.2,2.3,3.4]");
     testNSArray(@"[false,true,true,false]");

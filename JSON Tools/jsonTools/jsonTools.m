@@ -9,6 +9,7 @@
 #import "jsonTools.h"
 
 @implementation NSDictionary (JSONString)
++(NSString*) jsonToolsVersion{return @"0.0.1";};
 -(NSString*) jsonString{return [self jsonStringWithPrettyPrint:NO];}
 -(NSString*) jsonStringWithPrettyPrint:(BOOL) prettyPrint
 {
@@ -39,6 +40,7 @@
 @end
 
 @implementation NSArray (JSONString)
++(NSString*) jsonToolsVersion{return @"0.0.1";};
 -(NSString*) jsonString{return [self jsonStringWithPrettyPrint:NO];}
 -(NSString*) jsonStringWithPrettyPrint:(BOOL) prettyPrint
 {

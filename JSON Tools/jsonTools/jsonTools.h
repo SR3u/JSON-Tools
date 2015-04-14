@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (JSONString)
++(NSString*) jsonToolsVersion;
 -(NSString*) jsonString;
 -(NSString*) jsonStringWithPrettyPrint:(BOOL) prettyPrint;
 +(NSDictionary*) dictionaryWithJSONString:(NSString*) jsonString;
 @end
 @interface NSArray (JSONString)
++(NSString*) jsonToolsVersion;
 -(NSString*) jsonString;
 - (NSString *)jsonStringWithPrettyPrint:(BOOL)prettyPrint;
 +(NSArray*) arrayWithJSONString:(NSString*) jsonString;
