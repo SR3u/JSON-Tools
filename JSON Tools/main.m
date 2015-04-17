@@ -21,7 +21,6 @@ void testNSDictionary(NSString* testDictionaryJsonString)
 }
 void testNSDictionary_all(void)
 {
-    NSLog(@"[NSDictionary jsonToolsVersion]:'%@'",[NSDictionary jsonToolsVersion]);
     testNSDictionary(@"{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}");
     testNSDictionary(@"{\"dicitonary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}}");
     testNSDictionary(@"{\"dictionary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5},\n"
@@ -47,7 +46,6 @@ void testNSMutableDictionary(NSString* testDictionaryJsonString)
 }
 void testNSMutableDictionary_all(void)
 {
-    NSLog(@"[NSMutableDictionary jsonToolsVersion]:'%@'",[NSDictionary jsonToolsVersion]);
     testNSMutableDictionary(@"{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5,\"key\":\"value\"}");
     testNSMutableDictionary(@"{\"dicitonary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5}");
     testNSMutableDictionary(@"{\"dictionary1\":{\"string\":\"stringValue\",\"bool\":true,\"integer\":100,\"float\":1.5},\n"
@@ -68,7 +66,6 @@ void testNSArray(NSString* testArrayJsonString)
 }
 void testNSArray_all(void)
 {
-    NSLog(@"[NSArray jsonToolsVersion]:'%@'",[NSArray jsonToolsVersion]);
     testNSArray(@"[0,1,2,3]");
     testNSArray(@"[0.1,1.2,2.3,3.4]");
     testNSArray(@"[false,true,true,false]");
@@ -93,7 +90,6 @@ void testNSMutableArray(NSString* testArrayJsonString)
 }
 void testNSMutableArray_all(void)
 {
-    NSLog(@"[NSMutableArray jsonToolsVersion]:'%@'",[NSArray jsonToolsVersion]);
     testNSMutableArray(@"[0,1,2,3]");
     testNSMutableArray(@"[0.1,1.2,2.3,3.4]");
     testNSMutableArray(@"[false,true,true,false]");
