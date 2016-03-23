@@ -1,6 +1,6 @@
 # JSON Tools #
 
-Just some NS* classes extensions.
+Just some NS* classes extensions.[![Build Status](https://travis-ci.org/SR3u/JSON-Tools.svg?branch=master)](https://travis-ci.org/SR3u/JSON-Tools)
 
 ## [Currently supported classes](https://bitbucket.org/SR3u/json-tools/wiki/Classes) ##
 
