@@ -1,0 +1,2 @@
+language: objective-c
+script: xcodebuild -workspace "JSON Tools.xcodeproj/project.xcworkspace" -scheme "JSON Tools"
